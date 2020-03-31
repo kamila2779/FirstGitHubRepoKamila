@@ -1,0 +1,11 @@
+Dependencies for cucumber:
+Selenium-java
+Cobertura
+Cucumber-jvm-deps
+Cucumber-reporting
+Gherkin
+JUnit
+Mockito-all-1.10.19
+Cucumber-core
+Cucumber-java
+Cucumber-junit

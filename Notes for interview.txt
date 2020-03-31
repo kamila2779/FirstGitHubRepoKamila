@@ -1,0 +1,22 @@
+OOPS
+OOOPS stands for Object Oriented Programming Sistem.
+Talking about OOPS I want to mention few basic concepts. All that 
+are connected to each other.
+First I want to talk about INHERITANCE. One class can inherited
+functions and variables from another class using 'extends' key-word.
+But if the class has access modifier private, it cannot be inherited
+by other classes. This is the example of concept INCAPSULATION. 
+It is four types of access modifiers: public - visible for all project,
+private - visible for the class only, protected - visible to the packaje
+and all subclasses, by default - visible to the package.
+I want to mention one more concept - polymorphizm and two 
+examples of polymorphizm - method overloading and method overriding. 
+Within one class we cannot make duplicate methods, but we can have few methods in one class 
+with the same name, but with different arguments or input parameters
+This concept calls method overloading. 
+We can use the extended method with the same name, but with other function, 
+and the preference will be given to the child's method. This concept
+calls method overriding.
+One more concept is abstruction. I dont know how the key words and methods work, but I know 
+what it does and how can I use it.
+ 
