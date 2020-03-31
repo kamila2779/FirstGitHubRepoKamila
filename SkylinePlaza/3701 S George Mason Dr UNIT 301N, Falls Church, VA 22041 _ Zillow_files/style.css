@@ -1,0 +1,616 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+sub,
+sup {
+
+    font-size: 45%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.8em;
+    
+}
+
+
+
+
+
+/*------- Calling Spongecell hosted Comcast Fonts --------*/
+
+@font-face {
+    font-family: 'XFINITYStandardTT-Thin';
+    src: url("https://cdn.flashtalking.com/93411/fonts/68f8e04978274091c7e6a976542a8ec97eee679e.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/fcd4f2198bddddd5175dd3d169a3388de84a8e7d.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/aa7d91e3382f967545ca35bbb60551aaa5f83719.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'XFINITYStandardTT-Bold';
+    src: url("https://cdn.flashtalking.com/93411/fonts/bf2f2b3424a5148dfa724c2fdfb63d7f5d3b61c4.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/e47e07c11abfd771eb540bb9e07e9fec9e119c72.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/ed356a21dc6474b5ae9b308808995af6ea4551f7.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'XFINITYStandardTT';
+    src: url("https://cdn.flashtalking.com/93411/fonts/6c42a98cfc6fa0c435b36f2a42509d71ccef627c.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/9c8b95b41012f79de6dff19b5722e4ceba3b98b9.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/4b519c62d8912d01963a2179b2262b7fd093a8c0.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'XFINITYStandardTT-Medium';
+    src: url("https://cdn.flashtalking.com/93411/fonts/48c7e9affb0f33ae2050766b308832be99b9521c.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/3ad0668f0994cb844ccd7824c6f970068925198c.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/8674ef4564ad507eaaa2c5dff14345c9181899bf.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'XFINITYStandardTT-MediumItalic';
+    src: url("https://cdn.flashtalking.com/93411/fonts/8da4afd258ec077cc55c18d76dae0a5ed0f778bc.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/3fbcf6a04efa0d8393c9adbc44638f9c46e11ba7.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/5aa775a6da8c6068572bc798038dcded2dad65d0.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'XFINITYStandardTT-Light';
+    src: url("https://cdn.flashtalking.com/93411/fonts/beeacad9011922c7031fe837cdf667ea76c960b0.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/a6e7996a68a9983dc83e5122d44ecad4fe1b4715.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/b2b50684d518d03f3495943c45107c480b316be3.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'XFINITYStandardTTCond-Medium';
+    src: url("https://cdn.flashtalking.com/93411/fonts/c92c79a86b2b54bde3fe6d11cdd32a70f954c510.woff2") format("woff2"),
+    url("https://cdn.flashtalking.com/93411/fonts/0fc18abd6d2c72b82ebe3acfc84e2cc6bad984e8.woff") format("woff"),
+    url("https://cdn.flashtalking.com/93411/fonts/210731351d2689a6ab491c73b860b2a8edaddfa4.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+/* ---------------------------------- Font Style Classses ---------------------------------- */
+
+.xsn {
+    font-family: 'XfinityStandardTT';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.xst {
+    font-family: 'XFINITYStandardTT-Thin';
+    font-style: normal;
+    font-weight: 100;
+}
+
+.xsb {
+    font-family: 'XFINITYStandardTT-Bold';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.xsm {
+    font-family: 'XFINITYStandardTT-Medium';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.xsl {
+    font-family: 'XFINITYStandardTT-Light';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.xsc {
+    font-family: 'XFINITYStandardTTCond-Medium';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.xsi {
+    font-family: 'XFINITYStandardTT-MediumItalic';
+    font-style: italic;
+    font-weight: 500;
+}
+
+.lhx2 {
+    line-height: 2;
+}
+
+.lhx05 {
+    line-height: 0.5;
+}
+
+.lhx08 {
+    line-height: 0.8;
+}
+
+.size12 {
+    font-size: 12px;
+}
+
+.size8 {
+    font-size: 8px;
+}
+
+.styleItalic {
+    font-style: italic;
+}
+
+
+
+
+
+/* ---------------------------------- Non Dynamic Elements ---------------------------------- */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+div,
+img,
+ft-dynamic {
+    position: absolute;
+}
+
+#container {
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+#bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 250px;
+    background: url(bg.jpg) no-repeat;
+}
+
+#f1_copy1 {
+    position: absolute;
+    right: 138px;
+    top: 52px;
+}
+
+#f1_copy1_blur {
+    position: absolute;
+    right: 138px;
+    top: 52px;
+}
+
+#f1_copy2 {
+    position: absolute;
+    right: 52px;
+    top: 93px;
+}
+
+#f1_copy2_blur {
+    position: absolute;
+    right: 52px;
+    top: 93px;
+}
+
+
+#f2_copy1 {
+    position: absolute;
+    right: 149px;
+    top: 52px;
+}
+
+#f2_copy1_blur {
+    position: absolute;
+    right: 149px;
+    top: 52px;
+}
+
+#f2_copy2 {
+    position: absolute;
+    right: 191px;
+    top: 84px;
+}
+
+#f2_copy2_blur {
+    position: absolute;
+    right: 191px;
+    top: 84px;
+}
+
+#f2_copy3 {
+    position: absolute;
+    bottom: 36px;
+    left: 23px;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 12px;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+#gamer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 250px;
+}
+
+#gradient {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+
+#gradientEF {
+    width: 300px;
+    height: 163px;
+    bottom: 0;
+    background: url(gradientEF.png);
+}
+
+#purpleLight {
+    background: url(purpleLight.png);
+    top: 50px;
+    left: 10px;
+    width: 278px;
+    height: 81px;
+}
+
+#purpleLight2 {
+    background: url(purpleLight.png);
+    top: 130px;
+    left: 10px;
+    width: 278px;
+    height: 81px;
+    transform: scale(0.5, 0.7);
+    opacity: .8;    
+}
+
+#shortLightBlue {
+    background: url(shortLightBlue.png);
+    top: 50px;
+    left: 10px;
+    width: 102px;
+    height: 38px;
+}
+
+#blueishLight {
+    background: url(blueishLight.png);
+    width: 300px;
+    height:250px;
+}
+
+#blueishLight2 {
+    background: url(blueishLight2.png);
+    width: 300px;
+    height:250px;
+}
+
+#blueishLight3 {
+    background: url(blueishLight3.png);
+    width: 300px;
+    height:250px;
+}
+
+#blueishLightBigger {
+    background: url(blueishLightBigger.png);
+    width: 300px;
+    height:250px;
+}
+
+#blueLight {
+    background: url(blueLight.png);
+    top: 5px;
+    width: 300px;
+    height:53px;
+}
+
+#shortLightPink {
+    background: url(shortLightPink.png);
+    top: 125px;
+    width: 102px;
+    height: 38px;
+}
+
+#shortLightPurple {
+    background: url(shortLightPurple.png);
+    top: 5px;
+    width: 102px;
+    height: 38px;
+}
+
+#whiteLight {
+    background: url(whiteLight.png);
+    top: 20px;
+    width: 239px;
+    height: 64px;
+    transform: scale(0.5, 0.7);
+    opacity: .8;
+}
+
+#whiteLight2 {
+    background: url(whiteLight.png);
+    top: 170px;
+    width: 239px;
+    height: 64px;
+}
+
+#particles {
+    background: url(particles.png);
+    width: 300px;
+    height:250px;
+}
+
+.frame3CopyHolder {
+    top: 19px;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    display: table;
+}
+
+#frame3Copy {
+    font-size: 22px;
+    line-height: 1.3;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-left: 17px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#bottomBar {
+    bottom: -250px;
+    left: 0;
+    background-image: url(bottomBar.svg);
+    width: 300px;
+    height: 294px;
+}
+
+#ctaBg {
+    top: 184px;
+    left: 100px;
+    width: 100px;
+    height: 29px;
+    overflow: hidden;
+    background-color: #3399cc;
+    border-radius: 45px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(204, 204, 204, 0), rgba(255, 255, 255, 0.3), rgba(204, 204, 204, 0));
+    background-position: -100px 0;
+}
+
+#cta {
+    text-align: center;
+    font-size: 12px;
+    line-height: 11px;    
+    width: 100%;
+    color: white;
+    white-space: nowrap;
+    top: 9px;
+    padding: 0;
+}
+
+#logo {
+    width: 70px;
+    height: 25px;
+    bottom: 9px;
+    right: 9px;
+}

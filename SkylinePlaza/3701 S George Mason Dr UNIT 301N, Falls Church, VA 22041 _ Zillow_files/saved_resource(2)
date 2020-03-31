@@ -1,0 +1,32 @@
+
+var ftGUID_4461975="43818284EF0557";
+var ftConfID_4461975="19674946";
+var ftParams_4461975="ftx=&fty=&ftadz=&ftscw=ebuy=23830910;esid=4094539;epid=268251271;ecid=128941413;eadv=4053494;eaid=463919632;erid=128806300;eexpid=;eexcid=;erv=1;eiid=COvr7o_StOgCFcFCNwodr7kGcA;&ft_custom=4053494__23830910__4094539__128941413&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-37%2Fhtml%2Fcontainer.html&ft_keyword=268251271&ft_section=85057467964896886213739569027028321557%7C%7C268251271&cachebuster=922995.9594119102";
+var ftKeyword_4461975="";
+var ftCustom_4461975="4053494__23830910__4094539__128941413";
+var ftSection_4461975="85057467964896886213739569027028321557||268251271";
+var ftSegment_4461975="xtx,wlk,v6j,xqs,xp8,w2b,wop";
+var ftSegmentList_4461975=[{s:'xtx'},{s:'wlk',t:43970000},{s:'v6j'},{s:'xqs'},{s:'xp8'},{s:'w2b'},{s:'wop'}];
+var ftRuleMatch_4461975="0";
+var ftTimestamp_4461975="1585105573";
+var ftGeoC2_4461975="us";
+var ftGeoState_4461975="va";
+var ftGeoCity_4461975="mc lean";
+var ftISP_4461975="verizon business";
+var ftSpeed_4461975="broadband";
+var ftDMA_4461975="511";
+var ftLong_4461975="-77.23";
+var ftLat_4461975="38.96";
+var ftPostal_4461975="22102";
+var ftTimeZone_4461975="-400";
+var ftMobileCarrier_4461975="";
+var ftImp4461975 = {};
+ftImp4461975.privacy = "x";
+ftImp4461975.guidAge = "86";
+ftImp4461975.impID = "755B2393-0B94-58BB-0412-FAB2F0455F15";
+ftImp4461975.duid = "FT:43818284EF0557";
+
+ftImp4461975.ft_tpplid = "";
+ftImp4461975.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/446/4461975/2983190/js/j-4461975-2983190.js" id="ftscript_m4461975" name="ftscript_m4461975"></scr'+'ipt>');
